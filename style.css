@@ -24,6 +24,9 @@ body {
   padding: 32px;
 }
 
+.person__info {
+  margin-bottom: 24px;
+}
 .person__name {
   font-size: 36px;
   margin: 0;
@@ -31,12 +34,28 @@ body {
 }
 
 .person__lvl {
-  font: size 16px;
+  font: size 18px;
   margin: 0;
   font-style: italic;
   color: #545454;
 }
 
+.person__description--with-margin {
+  margin-bottom: 22px;
+}
+
 .person__description {
   font-size: 16px;
+  line-height: 22px;
+}
+
+.special {
+  color: orange;
+  font-weight: normal;
+}
+
+.person__link {
+  color: orangered;
+  font-style: normal;
+  text-decoration: none;
 }
